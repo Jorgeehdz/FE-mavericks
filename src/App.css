@@ -1,0 +1,106 @@
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+
+.check-btn {
+  width: 50%;
+  display: inline-block;
+}
+
+.card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 180px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.product_header {
+  display: flex;
+}
+
+.list_products,
+.list_order {
+  margin-top: -15%;
+}
+
+.card_products {
+  display: flex;
+  text-align: center;
+}
+
+
+.btn-product {
+  width: 30%;
+  margin-right: 2%;
+}
+
+.btn-product-details {
+  width: 30%;
+  margin-right: 2%;
+}
+
+.btn-order,
+.btn-order-details {
+  width: 30%;
+  margin-left: 2%;
+}
+
+.btn-modal-order {
+  width: 30%;
+  margin-left: 2%;
+}
+
+.btn-modal-set-order {
+  width: 30%;
+  margin-left: 2%;
+}
+
+.btn-modal-product {
+  width: 45%;
+  margin-left: 2%;
+}
+
+.form-control {
+  width: 50%;
+  display: inline-block;
+}
+
+.card-product,
+.card-order {
+  width: 80%;
+  margin-bottom: -15%;
+}
+
+.card-product-order {
+  margin-top: 0;
+}
+
+.card-order-details {
+  margin-top: 0;
+}
+
+.card-login {
+  width: 70%;
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
