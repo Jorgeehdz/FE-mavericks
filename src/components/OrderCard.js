@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Card, Button, ButtonToolbar } from "react-bootstrap";
+import AuthService from '../services/auth.service';
 import OrderService from '../services/order.service';
 import DeleteOrderModal from './DeleteOrderModal';
 import OrderDetailsModal from './OrderDetailsModal';
@@ -10,7 +11,7 @@ const OrderCard = ({ orderData }) => {
 
     function delayAndGo(e) {
         e.preventDefault();
-        OrderService.putOrderStatus(orderData.id);
+        OrderService.putOrderStatus(orderData.id, AuthService.getCurrentUser().email.toString());
 
         setTimeout(() => window.location.reload(), 300);
     }

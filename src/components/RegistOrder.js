@@ -33,7 +33,7 @@ const RegistOrder = () => {
         e.preventDefault();
         setMessage("");
         if (orderName && details && address) {
-            OrderService.postOrder(orderName, details, address, AuthService.getCurrentUser().id.toString());
+            OrderService.postOrder(orderName, details, address, AuthService.getCurrentUser().id.toString(), AuthService.getCurrentUser().email.toString());
 
             setTimeout(() => history(path), 300);
         } else {
